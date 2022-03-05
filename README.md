@@ -1,22 +1,18 @@
-# Flask Web App Tutorial
+# HERworld
 
-## Setup & Installtion
+## About HERworld Web Application
 
-Make sure you have the latest version of Python installed.
+Her world is a platform designed by women for women to promote small businesses owned by women in your area. This app is designed for business owners by allowing them to:
+> Create blogs
+> Update their store information
+> Post flyers 
+> Post events 
 
-```bash
-git clone <repo-url>
-```
+Users on the other hand can:
+> Find local businesses and events around them
+> Like, share, and comment on a blog post 
+> Attend events
 
-```bash
-pip install -r requirements.txt
-```
-
-## Running The App
-
-```bash
-python main.py
-```
 
 ## Viewing The App
 
