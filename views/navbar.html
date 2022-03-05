@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/nav_bar.css"/>
+    <!-- public icons stylesheet, for list of icons go here: https://fontawesome.com/v4/icons/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-base">
+                <div class="nav-body">
+                    <a href="/" class="TeraDrive-logo">
+                        <img src="../static/images/Capture.png" class="logo-scale" alt="TeraDrive" />
+                    </a>
+                </div>
+                <div class="nav-body" id="navElements">
+                    <a href="#"><b>OVERVIEW</b></a>
+                    <a href="#"><b>SETTINGS</b></a>
+                    <a href="javascript:void(0);" class="dropdown" onclick="dropMenu()">
+                        <i class="fa fa-times" id="dropClose"></i>
+                        <i class="fa fa-bars" id="dropStack"></i>
+                    </a>
+                    <a href="/logout" class="right-side"><b>LOGOUT</b></a>
+                </div>
+            </nav>
+        </header>
+        {% block content %}
+        {% endblock content %}
+    </div>
+<script>
+    function dropMenu() {
+        var x = document.getElementById("navElements");
+        var close = document.getElementById("dropClose");
+        var stack = document.getElementById("dropStack");
+        if (x.className === "nav-body") {
+        x.className += " responsive";
+        close.style.opacity = 100
+        close.style.transform = "rotate(0deg)";
+        stack.style.opacity = 0
+        stack.style.transform = "rotate(360deg)";
+        } else {
+        x.className = "nav-body";
+        close.style.opacity = 0
+        close.style.transform = "rotate(360deg)";
+        stack.style.opacity = 100
+        stack.style.transform = "rotate(0deg)";
+        }
+    }
+</script>
+
+</body>
+</html>
