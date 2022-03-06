@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 4254px;
   overflow: hidden;
-  width: 1728px;
+  width: 1800px;
 }
 
 .landing-page .navbar {
@@ -40,7 +40,7 @@
 
 .landing-page .logo {
   height: 122px;
-  left: 50;
+  left: 30px;
   position: absolute;
   top: 14px;
   width: 232px;
@@ -151,7 +151,7 @@
 
 .landing-page .he-rworld {
   height: 92px;
-  left: 251px;
+  left: 200px;
   position: absolute;
   top: 103px;
   width: 582px;
@@ -162,7 +162,7 @@
   font-family: var(--font-family-made_evolve_sans-bold);
   font-size: 55px;
   font-weight: 700;
-  left: 250px;
+  left: 200px;
   letter-spacing: 7.15px;
   position: absolute;
   top: 237px;
@@ -204,7 +204,7 @@
   letter-spacing: 4.30px;
   position: absolute;
   text-align: center;
-  top: 26px;
+  top: 35px;
   width: 476px;
 }
 
@@ -818,8 +818,8 @@
   left: 542px;
   letter-spacing: 0;
   position: absolute;
-  top: 101px;
-  width: 819px;
+  top: 20px;
+  width: 700px;
 }
 
 .landing-page .support-women {
@@ -1160,7 +1160,7 @@
 .landing-page .find-events {
   color: var(--cinderella);
   font-family: var(--font-family-made_evolve_sans-bold);
-  font-size: 43px;
+  font-size: 35px;
   font-weight: 700;
   left: 0;
   letter-spacing: 4.30px;

@@ -1,127 +1,28 @@
 /* screen - events */
 
 .events {
-  align-items: flex-start;
+  align-items: center;
   background-color: var(--seashell-peach);
   display: flex;
-  height: 4254px;
+  flex-direction: column;
+  height: 2782px;
   overflow: hidden;
   width: 1728px;
-}
-
-.events .overlap-group3 {
-  align-items: flex-start;
-  background-image: url(../img/vector@1x.png);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-left: -100px;
-  margin-top: 3893.62px;
-  min-height: 743px;
-  padding: 46.4px 719.1px;
-  width: 2253px;
-  z-index: 1;
-}
-
-.events .he-rworld {
-  height: 58px;
-  margin-left: 93.71px;
-  width: 369px;
-}
-
-.events .group-701 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 34px;
-  min-height: 211px;
-  width: 556px;
-}
-
-.events .group-697 {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 6.0px;
-  min-width: 562px;
-}
-
-.events .overlap-group1 {
-  height: 49px;
-  position: relative;
-  width: 278px;
-}
-
-.events .about {
-  left: 169px;
-  letter-spacing: 0;
-  position: absolute;
-  top: 0;
-  width: 109px;
-}
-
-.events .place {
-  left: 0;
-  letter-spacing: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 179px;
-}
-
-.events .overlap-group {
-  height: 49px;
-  margin-left: 24px;
-  position: relative;
-  width: 252px;
-}
-
-.events .faq {
-  left: 0;
-  letter-spacing: 0;
-  position: absolute;
-  top: 0;
-  width: 94px;
-}
-
-.events .place-1 {
-  left: 68px;
-  letter-spacing: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 184px;
-}
-
-.events .mask-group {
-  height: 63px;
-  margin-right: 8.67px;
-  margin-top: 8px;
-  width: 329px;
-}
-
-.events .x2022-he-rworld-all {
-  height: 89px;
-  letter-spacing: 0.93px;
-  line-height: 15.6px;
-  margin-right: 26.57px;
-  margin-top: 2px;
-  text-align: center;
-  width: 484px;
 }
 
 .events .navbar {
   align-items: flex-start;
   display: flex;
-  height: 136px;
+  height: 139px;
   left: 0;
   min-width: 1736px;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 4;
 }
 
-.events .overlap-group2 {
-  height: 136px;
+.events .overlap-group5 {
+  height: 139px;
   position: relative;
   width: 1728px;
 }
@@ -136,47 +37,22 @@
   width: 1728px;
 }
 
-.events .logo {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  height: 121px;
-  left: 0;
-  min-width: 236px;
-  padding: 20.4px 28.5px;
-  position: absolute;
-  top: 15px;
-}
-
-.events .her-world {
-  height: 77px;
-  width: 112px;
-}
-
-.events .x {
-  align-self: center;
-  height: 7px;
-  margin-left: 4px;
-  margin-top: 3.59px;
-  width: 7px;
-}
-
 .events .discover {
   cursor: pointer;
   left: 408px;
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 222px;
 }
 
-.events .place-2 {
+.events .place {
   cursor: pointer;
   left: 214px;
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 163px;
 }
 
 .events .events-1 {
@@ -184,19 +60,19 @@
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 184px;
 }
 
-.events .about-1 {
+.events .about {
   cursor: pointer;
   left: 906px;
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 187px;
 }
 
-.events .sign-up-button {
+.events .sign-up-button-1 {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -207,7 +83,7 @@
   top: 30px;
 }
 
-.events .overlap-group-1 {
+.events .overlap-group {
   height: 69px;
   margin-top: -0.77px;
   position: relative;
@@ -229,4 +105,346 @@
   text-align: center;
   top: 17px;
   width: 203px;
+}
+
+.events .logo {
+  cursor: pointer;
+  height: 129px;
+  left: 5px;
+  position: absolute;
+  top: 10px;
+  width: 183px;
+}
+
+.events .search-bar-filter {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 188px;
+  min-width: 1340px;
+  z-index: 2;
+}
+
+.events .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 11.54px;
+  display: flex;
+  height: 75px;
+  min-width: 1100px;
+  padding: 16.0px 18.1px;
+}
+
+.events .image-1 {
+  align-self: flex-end;
+  height: 43px;
+  object-fit: cover;
+  width: 42px;
+}
+
+.events .search-for-an-event {
+  letter-spacing: 0;
+  margin-left: 16px;
+  margin-top: 1.31px;
+  min-height: 20px;
+  opacity: 0.4;
+  width: 749px;
+}
+
+.events .filter-container {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 11.54px;
+  display: flex;
+  height: 75px;
+  margin-bottom: 0;
+  margin-left: 27px;
+  min-width: 213px;
+  padding: 12.5px 19.1px;
+}
+
+.events .filter-icon-vector {
+  height: 44px;
+  width: 49px;
+}
+
+.events .filter {
+  letter-spacing: 0;
+  margin-left: 4px;
+  margin-top: 2.1px;
+  min-height: 40px;
+  opacity: 0.4;
+  width: 80px;
+}
+
+.events .events-near-your-area {
+  letter-spacing: 0;
+  margin-left: 27.0px;
+  margin-top: 43px;
+  min-height: 77px;
+  min-width: 613px;
+  text-align: center;
+  z-index: 1;
+}
+
+.events .overlap-group6 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: -451.89px;
+  margin-top: 46px;
+  min-height: 2830px;
+  padding: 0 30.9px;
+  width: 2317px;
+  z-index: 3;
+}
+
+.events .events-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 260.33px;
+  min-height: 1925px;
+  width: 851px;
+}
+
+.events .overlap-group1 {
+  height: 637px;
+  margin-left: 3.78px;
+  position: relative;
+  width: 846px;
+}
+
+.events .mask-group {
+  height: 575px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 846px;
+}
+
+.events .x-mar {
+  left: 33px;
+  letter-spacing: 0.75px;
+  position: absolute;
+  top: 380px;
+  width: 617px;
+}
+
+.events .are-you-looking-for {
+  left: 35px;
+  letter-spacing: 0.75px;
+  position: absolute;
+  top: 476px;
+  width: 768px;
+}
+
+.events .book-club {
+  left: 33px;
+  letter-spacing: 1.37px;
+  position: absolute;
+  top: 413px;
+  width: 745px;
+}
+
+.events .sign-up-button {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 89px;
+  left: 627px;
+  min-width: 195px;
+  position: absolute;
+  top: 29px;
+}
+
+.events .overlap-group-2 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-1-10@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 99px;
+  margin-bottom: -9.73px;
+  margin-left: -1px;
+  min-width: 195px;
+  padding: 21.7px 0.8px;
+}
+
+.events .join {
+  letter-spacing: 3.55px;
+  min-height: 39px;
+  text-align: center;
+  width: 193px;
+}
+
+.events .overlap-group3 {
+  height: 637px;
+  margin-left: -0.22px;
+  margin-top: 7px;
+  position: relative;
+  width: 846px;
+}
+
+.events .relax-your-muscles-f {
+  left: 35px;
+  letter-spacing: 0.75px;
+  position: absolute;
+  top: 476px;
+  width: 768px;
+}
+
+.events .yoga-session {
+  left: 33px;
+  letter-spacing: 1.37px;
+  position: absolute;
+  top: 413px;
+  width: 745px;
+}
+
+.events .overlap-group-3 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-1-11@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 99px;
+  margin-bottom: -9.73px;
+  margin-left: -1px;
+  min-width: 195px;
+  padding: 21.7px 0.8px;
+}
+
+.events .overlap-group2 {
+  height: 637px;
+  margin-left: 4.78px;
+  margin-top: 7px;
+  position: relative;
+  width: 846px;
+}
+
+.events .the-ladies-are-going {
+  left: 35px;
+  letter-spacing: 0.75px;
+  position: absolute;
+  top: 476px;
+  width: 768px;
+}
+
+.events .brunch-and-coffee {
+  left: 33px;
+  letter-spacing: 1.37px;
+  position: absolute;
+  top: 413px;
+  width: 745px;
+}
+
+.events .overlap-group-4 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-1-12@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 99px;
+  margin-bottom: -9.73px;
+  margin-left: -1px;
+  min-width: 195px;
+  padding: 21.7px 0.8px;
+}
+
+.events .overlap-group4 {
+  align-items: flex-start;
+  background-image: url(../img/vector-11@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 57px;
+  min-height: 743px;
+  padding: 54.9px 707.1px;
+  width: 2253px;
+}
+
+.events .entrepren-her {
+  align-self: center;
+  height: 67px;
+  margin-right: 184.89px;
+  width: 455px;
+}
+
+.events .group-701 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-height: 216px;
+  width: 556px;
+}
+
+.events .group-697 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6.0px;
+  min-width: 562px;
+}
+
+.events .overlap-group1-1 {
+  height: 26px;
+  position: relative;
+  width: 278px;
+}
+
+.events .about-1 {
+  left: 169px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.events .place-1 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 179px;
+}
+
+.events .overlap-group-5 {
+  height: 26px;
+  margin-left: 24px;
+  position: relative;
+  width: 252px;
+}
+
+.events .faq {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.events .place-2 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 184px;
+}
+
+.events .mask-group-1 {
+  height: 63px;
+  margin-left: 15.33px;
+  margin-top: 36px;
+  width: 329px;
+}
+
+.events .x2022-he-rworld-all {
+  height: 89px;
+  letter-spacing: 0.93px;
+  line-height: 15.6px;
+  margin-right: 2.57px;
+  margin-top: 2px;
+  text-align: center;
+  width: 484px;
 }

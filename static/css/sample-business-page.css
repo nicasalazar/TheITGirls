@@ -10,6 +10,15 @@
   width: 1728px;
 }
 
+.sample-business-page .logo {
+  cursor: pointer;
+  height: 129px;
+  left: 5px;
+  position: absolute;
+  top: 10px;
+  width: 183px;
+}
+
 .sample-business-page .bakery {
   align-items: center;
   display: flex;
