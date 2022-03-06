@@ -1,20 +1,284 @@
-{% extends 'base.html' %}
-
-{% block head %}
-    <title>home</title>
-    <!--link rel="stylesheet" href="/static/style.css"/-->
-{% endblock %}
-
-{% block body %}
-    <h1>This is a demo websites for testing</h1>
-    <!--p style="font-family:'Courier New'">This is another paragraph.</p-->
-
-    <h1> Hello{{ name }}! </h1>
-    <form action="/test">
-        <input type="submit" value="Go to test page" />
-    </form>
-    <br>
-    <form action="/">
-        <input type="submit" value="Go to home page" />
-    </form>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1550, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="static/image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="static/css/landing-page.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #fff4ee">
+    <input type="hidden" id="anPageName" name="page" value="landing-page" />
+    <div class="container-center-horizontal">
+      <div class="landing-page screen">
+        <div class="navbar">
+          <div class="overlap-group13">
+            <div class="rectangle-2"></div>
+            <div class="logo">
+              <img class="her-world" src="static/img/her-world@2x.svg" />
+              <img class="x" src="static/img/-@2x.svg" />
+            </div>
+            <a href="discover.html"><div class="discover madeevolvesans-bold-blue-bayoux-48px">Discover</div> </a>
+            <div class="place madeevolvesans-bold-blue-bayoux-48px">Home</div>
+            <a href="events.html"><div class="events madeevolvesans-bold-blue-bayoux-48px">Events</div> </a
+            ><a href="about.html"><div class="about madeevolvesans-bold-blue-bayoux-48px">About</div> </a
+            ><a href="sign-up.html">
+              <div class="sign-up-button">
+                <div class="overlap-group-1">
+                  <img class="rectangle-1" src="static/img/rectangle-1-3@2x.svg" />
+                  <div class="sign-up madeevolvesans-bold-cinderella-29-9px">Sign Up</div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="overlap-group-container">
+            <div class="overlap-group14">
+              <img class="vector" src="static/img/vector-1@1x.svg" />
+              <img class="he-rworld" src="static/img/herworld-@2x.svg" />
+              <div class="made-for-women-by-women">Made for women, by women.</div>
+              <a href="discover.html">
+                <div class="group-1">
+                  <div class="overlap-group3">
+                    <img class="rectangle-1-1" src="static/img/rectangle-1@2x.svg" />
+                    <div class="discover-now">Discover Now</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="group-container">
+              <img class="group-9" src="static/img/group-9@2x.svg" />
+              <img class="group-10" src="static/img/group-10@2x.svg" />
+              <div class="overlap-group7">
+                <img class="mask-group-5" src="static/img/mask-group-19@1x.svg" />
+                <img class="vector-1" src="static/img/vector-5@1x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-col">
+            <div class="group-container-1">
+              <div class="group-container-2">
+                <div class="overlap-group2">
+                  <img class="overlap-group2-item" src="static/img/vector-1@1x.png" />
+                  <img class="vector-2" src="img/vector-2@1x.png" />
+                  <img class="overlap-group2-item" src="static/img/mask-group-2@2x.svg" />
+                </div>
+                <div class="overlap-group5">
+                  <img class="vector-3" src="static/img/vector-3@1x.png" />
+                  <img class="vector-4" src="static/img/vector-4@1x.png" />
+                  <img class="mask-group-6" src="static/img/mask-group-3@1x.svg" />
+                </div>
+                <img class="group-6" src="static/img/group-6@2x.svg" />
+                <img class="group-5" src="static/img/group-5@2x.svg" />
+              </div>
+              <img class="group-4" src="static/img/group-4@2x.svg" />
+            </div>
+            <h1 class="discover-unique-busi agatho-bold-mobster-72px">
+              Discover unique businesses,<br />all owned by women.
+            </h1>
+            <div class="her-world-is-a-platf madeevolvesans-medium-blue-bayoux-36px">
+              Her world is a platform designed by women for women to promote small businesses owned by women in your
+              area. <br /><br />As a business owner, you can sell products, promote your business, and create community
+              posts to engage with your customers.
+            </div>
+          </div>
+        </div>
+        <div class="flex-col-1">
+          <div class="overlap-group6">
+            <div class="overlap-group1">
+              <div class="rectangle-4"></div>
+              <img class="mask-group" src="static/img/mask-group-4@1x.svg" />
+              <img class="mask-group-1" src="static/img/mask-group-5@1x.svg" />
+              <div class="jessas-bakery madeevolvesans-bold-blue-bayoux-27-9px">Jessa’s Bakery</div>
+              <div class="overlap-group madeevolvesans-bold-blue-bayoux-23-2px">
+                <div class="rectangle-6"></div>
+                <div class="rectangle-7"></div>
+                <div class="products">Products</div>
+                <div class="posts">Posts</div>
+              </div>
+              <img class="mask-group-2" src="static/img/mask-group-6@2x.svg" />
+              <div class="ellipse-1 border-0-9px-cloudy"></div>
+              <p class="hi-everyone-im-jes madeevolvesans-medium-blue-bayoux-14-9px">
+                Hi everyone, I’m Jessa and I bake lots of sweets<br />and goods for everyone to enjoy! I’m a local...
+              </p>
+              <div class="group-12 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="cupcake-boxes4-2-1" src="static/img/cupcake-boxes4-2-1@2x.png" />
+                <p class="box-of-6-assorted-cupcakes">Box of 6 assorted cupcakes</p>
+                <div class="price">$24</div>
+              </div>
+              <div class="group-13 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="mask-group-3" src="static/img/mask-group-7@2x.svg" />
+                <div class="banana-bread-loaf">Banana bread loaf</div>
+                <div class="price-1">$15</div>
+              </div>
+              <div class="group-14 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="mask-group-7" src="static/img/mask-group-8@2x.svg" />
+                <div class="new-york-cheesecake">New York cheesecake</div>
+                <div class="x10slice">$10/slice</div>
+              </div>
+            </div>
+            <div class="overlap-group2-1">
+              <div class="rectangle-4"></div>
+              <img class="mask-group" src="static/img/mask-group-9@1x.svg" />
+              <img class="mask-group-1" src="static/img/mask-group-10@1x.svg" />
+              <div class="rummage madeevolvesans-bold-blue-bayoux-27-9px">Rummage</div>
+              <div class="overlap-group madeevolvesans-bold-blue-bayoux-23-2px">
+                <div class="rectangle-6"></div>
+                <div class="rectangle-7"></div>
+                <div class="products">Products</div>
+                <div class="posts">Posts</div>
+              </div>
+              <img class="mask-group-2" src="static/img/mask-group-11@2x.svg" />
+              <div class="ellipse-1 border-0-9px-cloudy"></div>
+              <p class="looking-to-shop-for madeevolvesans-medium-blue-bayoux-14-9px">
+                Looking to shop for the latest fashion trends?<br />Rummage is a sustainable clothing shop...
+              </p>
+              <div class="group-12 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="mask-group-3" src="static/img/mask-group-12@2x.svg" />
+                <p class="name">Summer dress set (2 pcs)</p>
+                <div class="price">$21</div>
+              </div>
+              <div class="group-13 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="mask-group-3" src="static/img/mask-group-13@2x.svg" />
+                <div class="geoprint-cardigan">Geoprint cardigan</div>
+                <div class="price-1">$12</div>
+              </div>
+              <div class="group-14-1 madeevolvesans-medium-blue-bayoux-13px">
+                <img class="mask-group-3" src="static/img/mask-group-14@2x.svg" />
+                <div class="colorful-drawstring-skirt">Colorful drawstring<br />skirt</div>
+                <div class="price-2">$9</div>
+              </div>
+            </div>
+            <div class="overlap-group3-1">
+              <div class="rectangle-4-1"></div>
+              <img class="mask-group-4" src="static/img/mask-group-15@1x.svg" />
+              <img class="mask-group-4" src="static/img/mask-group@1x.png" />
+              <img class="mask-group-8" src="static/img/mask-group-17@1x.svg" />
+              <div class="dotty-designs madeevolvesans-bold-blue-bayoux-27-9px">Dotty Designs</div>
+              <div class="overlap-group-2 madeevolvesans-bold-blue-bayoux-23-2px">
+                <div class="rectangle-6"></div>
+                <div class="rectangle-7-1"></div>
+                <div class="products">Products</div>
+                <div class="posts">Posts</div>
+              </div>
+              <img class="mask-group-9" src="static/img/mask-group-18@2x.svg" />
+              <div class="ellipse-1-1 border-0-9px-cloudy"></div>
+              <p class="we-sell-handpainted madeevolvesans-medium-blue-bayoux-14-9px">
+                We sell handpainted designs to be used as beautiful stationaries, cards, writing sets, and mo...
+              </p>
+            </div>
+            <div class="support-women-and-lo">Support women and locally made products.</div>
+          </div>
+          <div class="flex-row-1">
+            <div class="overlap-group22">
+              <div class="overlap-group15">
+                <img class="vector-5" src="static/img/vector@1x.svg" />
+                <div class="why-he-rworld agatho-bold-mobster-72px">Why HERworld?</div>
+                <div class="support-women agatho-bold-mobster-40px">Support women.</div>
+                <div class="we-bring-clients-and">
+                  We bring clients and customers closer together by fostering a sense of community, while being able to
+                  earn and own products.
+                </div>
+                <div class="support-your-fellow madeevolvesans-medium-blue-bayoux-26px">
+                  Support your fellow local women in their business endeavors.
+                </div>
+                <a href="sign-up.html">
+                  <div class="group-11">
+                    <div class="overlap-group4">
+                      <img class="rectangle-1-2" src="static/img/rectangle-1-1@2x.svg" />
+                      <div class="sign-your-business-up">Sign Your<br />Business Up</div>
+                    </div>
+                  </div></a
+                >
+                <div class="group-14-2">
+                  <div class="overlap-group9">
+                    <img class="vector-6" src="static/img/vector-7@1x.png" />
+                    <img class="mask-group-10" src="static/img/mask-group-21@2x.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="earn-money-easily-in madeevolvesans-medium-blue-bayoux-26px">
+                Earn money easily in a non-male dominated market.
+              </div>
+              <div class="group-12-1">
+                <div class="overlap-group8">
+                  <img class="vector-7" src="static/img/vector-6@1x.png" />
+                  <img class="mask-group-11" src="static/img/mask-group-20@2x.svg" />
+                </div>
+              </div>
+              <div class="earn-money agatho-bold-mobster-40px">Earn money.</div>
+            </div>
+            <div class="flex-col-2">
+              <div class="group-13-1">
+                <div class="overlap-group11">
+                  <img class="vector-8" src="static/img/vector-9@1x.png" />
+                  <img class="mask-group-12" src="static/img/mask-group-23@2x.svg" />
+                </div>
+              </div>
+              <div class="overlap-group19">
+                <div class="own-local-products agatho-bold-mobster-40px">Own local products.</div>
+                <div class="purchase-products-ma madeevolvesans-medium-blue-bayoux-26px">
+                  Purchase products made sustainably and locally by women.
+                </div>
+                <div class="group-15">
+                  <div class="overlap-group10">
+                    <img class="vector-9" src="static/img/vector-8@1x.png" />
+                    <img class="mask-group-13" src="static/img/mask-group-22@2x.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="find-a-community agatho-bold-mobster-40px">Find a community.</div>
+              <div class="through-events-find madeevolvesans-medium-blue-bayoux-26px">
+                Through events, find like-minded women and create meaningful connections.
+              </div>
+            </div>
+          </div>
+          <div class="overlap-group-container-1">
+            <div class="overlap-group18">
+              <div class="join-nearby-events agatho-bold-mobster-72px">Join nearby events.</div>
+              <div class="discover-nearby-even madeevolvesans-medium-blue-bayoux-36px">
+                Discover nearby events being hosted by women to meet your local community, participate in fun
+                activities, and build a strong social circle with other women.
+              </div>
+              <a href="events.html">
+                <div class="group-16">
+                  <div class="overlap-group12">
+                    <img class="rectangle-1-3" src="static/img/rectangle-1-2@2x.svg" />
+                    <div class="find-events">Find Events</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group17">
+              <img class="mask-group-14" src="static/img/mask-group@1x.svg" />
+              <img class="vector-10" src="img/vector-2@1x.svg" />
+            </div>
+          </div>
+          <div class="overlap-group16">
+            <img class="he-rworld-1" src="static/img/herworld--1@2x.svg" />
+            <div class="group-701">
+              <div class="group-697 madeevolvesans-bold-blue-bayoux-32-8px">
+                <div class="overlap-group-3">
+                  <div class="about-1">About</div>
+                  <div class="place-1">Home</div>
+                </div>
+                <div class="overlap-group1-1">
+                  <div class="faq">FAQ</div>
+                  <div class="place-2">Contact</div>
+                </div>
+              </div>
+              <img class="mask-group-15" src="static/img/mask-group-1@2x.svg" />
+              <div class="x2022-he-rworld-all valign-text-middle madeevolvesans-light-blue-bayoux-18-7px">
+                © 2022 HERworld. All Rights Reserved.<br /><br />Terms &amp; Conditions | Privacy Policy | Cookie Policy
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

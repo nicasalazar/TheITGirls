@@ -1,0 +1,122 @@
+:root { 
+  --black: #000000;
+  --blue-bayoux: #436383;
+  --blue-bayoux-2: #4a647f;
+  --cinderella: #f7e5da;
+  --cloudy: #aca6a3;
+  --mobster: #826f8d;
+  --seashell-peach: #fff4ee;
+  --timberwolf: #dad4cf;
+ 
+  --font-size-l: 48px;
+  --font-size-m: 36px;
+  --font-size-s: 34px;
+  --font-size-xs: 26px;
+  --font-size-xxs: 18.7px;
+  --font-size-xxxs: 14.9px;
+  --font-size-xxxxs: 13px;
+ 
+  --font-family-agatho-bold: "Agatho-Bold", Helvetica;
+  --font-family-made_evolve_sans-bold: "MADE Evolve Sans-Bold", Helvetica;
+  --font-family-made_evolve_sans-light: "MADE Evolve Sans-Light", Helvetica;
+  --font-family-made_evolve_sans-medium: "MADE Evolve Sans-Medium", Helvetica;
+}
+.madeevolvesans-bold-blue-bayoux-48px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-bold-blue-bayoux-32-8px {
+  color: var(--blue-bayoux-2);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 32.8px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-13px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.madeevolvesans-bold-blue-bayoux-23-2px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 23.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-bold-cinderella-29-9px {
+  color: var(--cinderella);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 29.9px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-light-blue-bayoux-18-7px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-light);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.agatho-bold-mobster-40px {
+  color: var(--mobster);
+  font-family: var(--font-family-agatho-bold);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-26px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.agatho-bold-mobster-72px {
+  color: var(--mobster);
+  font-family: var(--font-family-agatho-bold);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-36px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.madeevolvesans-bold-blue-bayoux-27-9px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 27.9px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-14-9px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.border-0-9px-cloudy {
+  border: 0.9px solid var(--cloudy);
+}

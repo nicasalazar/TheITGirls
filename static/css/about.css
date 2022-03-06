@@ -1,0 +1,284 @@
+/* screen - about */
+
+.about {
+  align-items: flex-start;
+  background-color: var(--seashell-peach);
+  display: flex;
+  flex-direction: column;
+  height: 2124px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.about .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 136px;
+  left: 0;
+  min-width: 1736px;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
+.about .overlap-group3 {
+  height: 136px;
+  position: relative;
+  width: 1728px;
+}
+
+.about .rectangle-2 {
+  background-color: var(--seashell-peach);
+  box-shadow: 0px 12px 30px #00000033;
+  height: 128px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.about .logo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 121px;
+  left: 0;
+  min-width: 236px;
+  padding: 20.4px 28.5px;
+  position: absolute;
+  top: 15px;
+}
+
+.about .her-world {
+  height: 77px;
+  width: 112px;
+}
+
+.about .x {
+  align-self: center;
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 3.59px;
+  width: 7px;
+}
+
+.about .discover {
+  cursor: pointer;
+  left: 408px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.about .place {
+  cursor: pointer;
+  left: 214px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.about .events {
+  cursor: pointer;
+  left: 679px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.about .about-1 {
+  left: 906px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.about .sign-up-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 67px;
+  left: 1491px;
+  min-width: 205px;
+  position: absolute;
+  top: 30px;
+}
+
+.about .overlap-group {
+  height: 69px;
+  margin-top: -0.77px;
+  position: relative;
+  width: 203px;
+}
+
+.about .rectangle-1 {
+  height: 69px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.about .sign-up {
+  left: 0;
+  letter-spacing: 2.99px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 203px;
+}
+
+.about .overlap-group4 {
+  height: 730px;
+  margin-top: 117px;
+  position: relative;
+  width: 1728px;
+  z-index: 2;
+}
+
+.about .priscilla-du-preez-g {
+  height: 720px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 1728px;
+}
+
+.about .rectangle-604 {
+  background-color: #00000080;
+  height: 730px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.about .he-rworld {
+  height: 92px;
+  left: 714px;
+  position: absolute;
+  top: 296px;
+  width: 582px;
+}
+
+.about .he-rworld-allows-you {
+  align-self: center;
+  letter-spacing: 1.80px;
+  margin-right: 44.0px;
+  margin-top: 86px;
+  min-height: 536px;
+  width: 1276px;
+  z-index: 3;
+}
+
+.about .group-704 {
+  align-items: flex-end;
+  display: flex;
+  height: 954px;
+  margin-left: -173.0px;
+  margin-top: 181px;
+  min-width: 2317px;
+  padding: 105.6px 30.9px;
+  z-index: 1;
+}
+
+.about .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/vector-12@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 743px;
+  padding: 46.4px 707.1px;
+  width: 2253px;
+}
+
+.about .he-rworld-1 {
+  height: 58px;
+  margin-left: 105.71px;
+  width: 369px;
+}
+
+.about .group-701 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  min-height: 212px;
+  width: 556px;
+}
+
+.about .group-697 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6.0px;
+  min-width: 562px;
+}
+
+.about .overlap-group1 {
+  height: 24px;
+  position: relative;
+  width: 278px;
+}
+
+.about .about-2 {
+  left: 169px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.about .place-1 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 179px;
+}
+
+.about .overlap-group-1 {
+  height: 24px;
+  margin-left: 24px;
+  position: relative;
+  width: 252px;
+}
+
+.about .faq {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.about .place-2 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 184px;
+}
+
+.about .mask-group {
+  height: 63px;
+  margin-left: 15.33px;
+  margin-top: 34px;
+  width: 329px;
+}
+
+.about .x2022-he-rworld-all {
+  height: 89px;
+  letter-spacing: 0.93px;
+  line-height: 15.6px;
+  margin-right: 2.57px;
+  margin-top: 2px;
+  text-align: center;
+  width: 484px;
+}

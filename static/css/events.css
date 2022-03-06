@@ -1,0 +1,232 @@
+/* screen - events */
+
+.events {
+  align-items: flex-start;
+  background-color: var(--seashell-peach);
+  display: flex;
+  height: 4254px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.events .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(../img/vector@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
+  margin-top: 3893.62px;
+  min-height: 743px;
+  padding: 46.4px 719.1px;
+  width: 2253px;
+  z-index: 1;
+}
+
+.events .he-rworld {
+  height: 58px;
+  margin-left: 93.71px;
+  width: 369px;
+}
+
+.events .group-701 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 211px;
+  width: 556px;
+}
+
+.events .group-697 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6.0px;
+  min-width: 562px;
+}
+
+.events .overlap-group1 {
+  height: 49px;
+  position: relative;
+  width: 278px;
+}
+
+.events .about {
+  left: 169px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.events .place {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 179px;
+}
+
+.events .overlap-group {
+  height: 49px;
+  margin-left: 24px;
+  position: relative;
+  width: 252px;
+}
+
+.events .faq {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.events .place-1 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 184px;
+}
+
+.events .mask-group {
+  height: 63px;
+  margin-right: 8.67px;
+  margin-top: 8px;
+  width: 329px;
+}
+
+.events .x2022-he-rworld-all {
+  height: 89px;
+  letter-spacing: 0.93px;
+  line-height: 15.6px;
+  margin-right: 26.57px;
+  margin-top: 2px;
+  text-align: center;
+  width: 484px;
+}
+
+.events .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 136px;
+  left: 0;
+  min-width: 1736px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.events .overlap-group2 {
+  height: 136px;
+  position: relative;
+  width: 1728px;
+}
+
+.events .rectangle-2 {
+  background-color: var(--seashell-peach);
+  box-shadow: 0px 12px 30px #00000033;
+  height: 128px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.events .logo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 121px;
+  left: 0;
+  min-width: 236px;
+  padding: 20.4px 28.5px;
+  position: absolute;
+  top: 15px;
+}
+
+.events .her-world {
+  height: 77px;
+  width: 112px;
+}
+
+.events .x {
+  align-self: center;
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 3.59px;
+  width: 7px;
+}
+
+.events .discover {
+  cursor: pointer;
+  left: 408px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.events .place-2 {
+  cursor: pointer;
+  left: 214px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.events .events-1 {
+  left: 679px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.events .about-1 {
+  cursor: pointer;
+  left: 906px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.events .sign-up-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 67px;
+  left: 1491px;
+  min-width: 205px;
+  position: absolute;
+  top: 30px;
+}
+
+.events .overlap-group-1 {
+  height: 69px;
+  margin-top: -0.77px;
+  position: relative;
+  width: 203px;
+}
+
+.events .rectangle-1 {
+  height: 69px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.events .sign-up {
+  left: 0;
+  letter-spacing: 2.99px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 203px;
+}
