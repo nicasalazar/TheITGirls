@@ -1,9 +1,9 @@
-<svg width="345" height="91" viewBox="0 0 345 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="209" height="68" viewBox="0 0 209 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:multiply">
-<rect x="0.727478" width="343.545" height="91" rx="30" fill="url(#paint0_linear_20_240)"/>
+<rect x="0.294922" width="208.411" height="67.3251" rx="23.2155" fill="url(#paint0_linear_45_59)"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_20_240" x1="172.5" y1="0" x2="172.5" y2="91" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_45_59" x1="104.5" y1="0" x2="104.5" y2="67.3251" gradientUnits="userSpaceOnUse">
 <stop stop-color="#436383"/>
 <stop offset="1" stop-color="#879AAD"/>
 </linearGradient>

@@ -4,31 +4,27 @@
   --blue-bayoux-2: #4a647f;
   --cinderella: #f7e5da;
   --cloudy: #aca6a3;
+  --mist-gray: #c4c4c4;
   --mobster: #826f8d;
+  --pot-pourri: #fce9e0;
   --seashell-peach: #fff4ee;
   --timberwolf: #dad4cf;
+  --white: #ffffff;
  
-  --font-size-l: 48px;
   --font-size-m: 36px;
-  --font-size-s: 34px;
-  --font-size-xs: 26px;
-  --font-size-xxs: 18.7px;
-  --font-size-xxxs: 14.9px;
-  --font-size-xxxxs: 13px;
+  --font-size-s: 35px;
+  --font-size-xs: 30px;
+  --font-size-xxs: 23px;
+  --font-size-xxxs: 22.9px;
+  --font-size-xxxxs: 18.7px;
+  --font-size-xxxxxs: 14.9px;
  
   --font-family-agatho-bold: "Agatho-Bold", Helvetica;
   --font-family-made_evolve_sans-bold: "MADE Evolve Sans-Bold", Helvetica;
   --font-family-made_evolve_sans-light: "MADE Evolve Sans-Light", Helvetica;
   --font-family-made_evolve_sans-medium: "MADE Evolve Sans-Medium", Helvetica;
+  --font-family-made_evolve_sans-regular: "MADE Evolve Sans-Regular", Helvetica;
 }
-.madeevolvesans-bold-blue-bayoux-48px {
-  color: var(--blue-bayoux);
-  font-family: var(--font-family-made_evolve_sans-bold);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 700;
-}
-
 .madeevolvesans-bold-blue-bayoux-32-8px {
   color: var(--blue-bayoux-2);
   font-family: var(--font-family-made_evolve_sans-bold);
@@ -37,20 +33,36 @@
   font-weight: 700;
 }
 
-.madeevolvesans-medium-blue-bayoux-13px {
+.madeevolvesans-bold-blue-bayoux-48px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-44px {
   color: var(--blue-bayoux);
   font-family: var(--font-family-made_evolve_sans-medium);
-  font-size: var(--font-size-xxxxs);
+  font-size: 44px;
   font-style: normal;
   font-weight: 500;
 }
 
-.madeevolvesans-bold-blue-bayoux-23-2px {
+.madeevolvesans-medium-blue-bayoux-13px {
   color: var(--blue-bayoux);
-  font-family: var(--font-family-made_evolve_sans-bold);
-  font-size: 23.2px;
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.madeevolvesans-light-blue-bayoux-18-7px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-light);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 300;
 }
 
 .madeevolvesans-bold-cinderella-29-9px {
@@ -61,12 +73,60 @@
   font-weight: 700;
 }
 
-.madeevolvesans-light-blue-bayoux-18-7px {
+.madeevolvesans-bold-blue-bayoux-23-2px {
   color: var(--blue-bayoux);
-  font-family: var(--font-family-made_evolve_sans-light);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 23.2px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-30px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.madeevolvesans-bold-blue-bayoux-65px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-bold-blue-bayoux-59px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-32px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.madeevolvesans-bold-blue-bayoux-43-1px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 43.1px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-23px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
   font-size: var(--font-size-xxs);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .agatho-bold-mobster-40px {
@@ -80,7 +140,23 @@
 .madeevolvesans-medium-blue-bayoux-26px {
   color: var(--blue-bayoux);
   font-family: var(--font-family-made_evolve_sans-medium);
-  font-size: var(--font-size-xs);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.madeevolvesans-bold-blue-bayoux-43px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.madeevolvesans-medium-blue-bayoux-22-9px {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 500;
 }
@@ -112,9 +188,17 @@
 .madeevolvesans-medium-blue-bayoux-14-9px {
   color: var(--blue-bayoux);
   font-family: var(--font-family-made_evolve_sans-medium);
-  font-size: var(--font-size-xxxs);
+  font-size: var(--font-size-xxxxxs);
   font-style: normal;
   font-weight: 500;
+}
+
+.border-1-4px-cloudy {
+  border: 1.4px solid var(--cloudy);
+}
+
+.border-2-3px-mist-gray {
+  border: 2.3px solid var(--mist-gray);
 }
 
 .border-0-9px-cloudy {

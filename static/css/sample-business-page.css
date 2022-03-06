@@ -1,0 +1,568 @@
+/* screen - sample-business-page */
+
+.sample-business-page {
+  align-items: center;
+  background-color: var(--seashell-peach);
+  display: flex;
+  flex-direction: column;
+  height: 3218px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.sample-business-page .bakery {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 22.55px;
+  margin-top: -369px;
+  min-height: 1261px;
+  width: 1455px;
+  z-index: 2;
+}
+
+.sample-business-page .overlap-group3 {
+  height: 858px;
+  margin-right: 23.55px;
+  position: relative;
+  width: 1325px;
+}
+
+.sample-business-page .x20170818-2048-sud-forno17-1 {
+  height: 769px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1325px;
+}
+
+.sample-business-page .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/mask-group-11@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 189px;
+  left: 571px;
+  min-width: 190px;
+  padding: 0.0px 0.4px;
+  position: absolute;
+  top: 669px;
+}
+
+.sample-business-page .ellipse-1 {
+  border: 1.5px solid var(--cloudy);
+  border-radius: 94.47px;
+  height: 189px;
+  width: 189px;
+}
+
+.sample-business-page .jessas-bakery-1 {
+  letter-spacing: 0;
+  margin-right: 22.55px;
+  margin-top: 11px;
+  min-height: 77px;
+  min-width: 388px;
+  text-align: center;
+}
+
+.sample-business-page .hi-everyone-im-jes {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  margin-top: 11px;
+  min-height: 164px;
+  text-align: center;
+  width: 1451px;
+}
+
+.sample-business-page .overlap-group {
+  height: 127px;
+  margin-right: 5.55px;
+  margin-top: 13px;
+  position: relative;
+  width: 597px;
+}
+
+.sample-business-page .rectangle-6 {
+  background-color: var(--timberwolf);
+  border-radius: 23.6px;
+  height: 88px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 573px;
+}
+
+.sample-business-page .rectangle-7 {
+  background-color: var(--seashell-peach);
+  border-radius: 18.88px;
+  height: 70px;
+  left: 304px;
+  position: absolute;
+  top: 9px;
+  width: 271px;
+}
+
+.sample-business-page .products {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 314px;
+}
+
+.sample-business-page .posts {
+  left: 283px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 314px;
+}
+
+.sample-business-page .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 136px;
+  left: 0;
+  min-width: 1736px;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
+.sample-business-page .overlap-group6 {
+  height: 136px;
+  position: relative;
+  width: 1728px;
+}
+
+.sample-business-page .rectangle-2 {
+  background-color: var(--seashell-peach);
+  box-shadow: 0px 12px 30px #00000033;
+  height: 128px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.sample-business-page .logo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 121px;
+  left: 0;
+  min-width: 236px;
+  padding: 20.4px 28.5px;
+  position: absolute;
+  top: 15px;
+}
+
+.sample-business-page .her-world {
+  height: 77px;
+  width: 112px;
+}
+
+.sample-business-page .x {
+  align-self: center;
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 3.59px;
+  width: 7px;
+}
+
+.sample-business-page .discover {
+  cursor: pointer;
+  left: 408px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.sample-business-page .place {
+  cursor: pointer;
+  left: 214px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.sample-business-page .events {
+  cursor: pointer;
+  left: 679px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.sample-business-page .about {
+  cursor: pointer;
+  left: 906px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  top: 38px;
+  width: 326px;
+}
+
+.sample-business-page .sign-up-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 67px;
+  left: 1491px;
+  min-width: 205px;
+  position: absolute;
+  top: 30px;
+}
+
+.sample-business-page .overlap-group-1 {
+  height: 69px;
+  margin-top: -0.77px;
+  position: relative;
+  width: 203px;
+}
+
+.sample-business-page .rectangle-1 {
+  height: 69px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.sample-business-page .sign-up {
+  left: 0;
+  letter-spacing: 2.99px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 203px;
+}
+
+.sample-business-page .feed-ex-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 27.64px;
+  margin-top: 19px;
+  min-width: 1148px;
+  z-index: 3;
+}
+
+.sample-business-page .overlap-group4 {
+  height: 935px;
+  position: relative;
+  width: 1148px;
+}
+
+.sample-business-page .rectangle-10 {
+  background-color: var(--pot-pourri);
+  border-radius: 40px;
+  height: 898px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1144px;
+}
+
+.sample-business-page .mask-group-2 {
+  height: 41px;
+  left: 65px;
+  position: absolute;
+  top: 829px;
+  width: 46px;
+}
+
+.sample-business-page .creampuff-day-1 {
+  height: 475px;
+  left: 65px;
+  object-fit: cover;
+  position: absolute;
+  top: 336px;
+  width: 1019px;
+}
+
+.sample-business-page .profile-info-top {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 49px;
+  min-height: 300px;
+  position: absolute;
+  top: 36px;
+  width: 1034px;
+}
+
+.sample-business-page .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 113px;
+  margin-left: -0.7px;
+  min-width: 914px;
+}
+
+.sample-business-page .mask-group {
+  height: 107px;
+  width: 119px;
+}
+
+.sample-business-page .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 105px;
+  width: 780px;
+}
+
+.sample-business-page .jessas-bakery {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  min-height: 51px;
+  width: 780px;
+}
+
+.sample-business-page .address {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-light);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0;
+  min-height: 54px;
+  width: 677px;
+}
+
+.sample-business-page .happy-monday-everyon {
+  align-self: center;
+  letter-spacing: 1.50px;
+  margin-left: 9.39px;
+  margin-top: 17px;
+  min-height: 170px;
+  width: 1012px;
+}
+
+.sample-business-page .overlap-group-2 {
+  height: 101px;
+  left: 129px;
+  position: absolute;
+  top: 834px;
+  width: 1019px;
+}
+
+.sample-business-page .name {
+  left: 0;
+  letter-spacing: 1.60px;
+  position: absolute;
+  top: 0;
+  width: 302px;
+}
+
+.sample-business-page .comments {
+  left: 803px;
+  letter-spacing: 1.60px;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.sample-business-page .and {
+  color: var(--blue-bayoux);
+  font-family: var(--font-family-made_evolve_sans-light);
+  font-size: 32px;
+  font-weight: 300;
+  left: 239px;
+  letter-spacing: 1.60px;
+  position: absolute;
+  top: 0;
+  width: 780px;
+}
+
+.sample-business-page .mask-group-1 {
+  height: 40px;
+  left: 747px;
+  position: absolute;
+  top: 2px;
+  width: 40px;
+}
+
+.sample-business-page .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: -443.89px;
+  margin-top: 53px;
+  min-height: 1807px;
+  padding: 0 30.9px;
+  width: 2315px;
+  z-index: 1;
+}
+
+.sample-business-page .overlap-group5 {
+  align-self: center;
+  height: 903px;
+  margin-right: 267.25px;
+  position: relative;
+  width: 1154px;
+}
+
+.sample-business-page .rectangle-10-1 {
+  background-color: var(--pot-pourri);
+  border-radius: 40px;
+  height: 872px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1144px;
+}
+
+.sample-business-page .x177831103_2829961401 {
+  height: 475px;
+  left: 65px;
+  object-fit: cover;
+  position: absolute;
+  top: 298px;
+  width: 1019px;
+}
+
+.sample-business-page .missed-these-little {
+  align-self: center;
+  letter-spacing: 1.50px;
+  margin-left: 9.39px;
+  margin-top: 17px;
+  min-height: 170px;
+  width: 1012px;
+}
+
+.sample-business-page .group-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 106px;
+  left: 65px;
+  min-width: 1089px;
+  position: absolute;
+  top: 797px;
+}
+
+.sample-business-page .mask-group-3 {
+  height: 41px;
+  width: 46px;
+}
+
+.sample-business-page .overlap-group-3 {
+  align-self: flex-end;
+  height: 101px;
+  margin-left: 18px;
+  position: relative;
+  width: 1019px;
+}
+
+.sample-business-page .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/vector-11@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  min-height: 743px;
+  padding: 46.4px 707.1px;
+  width: 2253px;
+}
+
+.sample-business-page .he-rworld {
+  height: 58px;
+  margin-left: 105.71px;
+  width: 369px;
+}
+
+.sample-business-page .group-701 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+  min-height: 214px;
+  width: 556px;
+}
+
+.sample-business-page .group-697 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6.0px;
+  min-width: 562px;
+}
+
+.sample-business-page .overlap-group-4 {
+  height: 32px;
+  position: relative;
+  width: 278px;
+}
+
+.sample-business-page .about-1 {
+  left: 169px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.sample-business-page .place-1 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 179px;
+}
+
+.sample-business-page .overlap-group1-1 {
+  height: 32px;
+  margin-left: 24px;
+  position: relative;
+  width: 252px;
+}
+
+.sample-business-page .faq {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.sample-business-page .place-2 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 184px;
+}
+
+.sample-business-page .mask-group-4 {
+  height: 63px;
+  margin-left: 15.33px;
+  margin-top: 28px;
+  width: 329px;
+}
+
+.sample-business-page .x2022-he-rworld-all {
+  height: 89px;
+  letter-spacing: 0.93px;
+  line-height: 15.6px;
+  margin-right: 2.57px;
+  margin-top: 2px;
+  text-align: center;
+  width: 484px;
+}

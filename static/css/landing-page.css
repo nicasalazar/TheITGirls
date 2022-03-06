@@ -11,7 +11,7 @@
 }
 
 .landing-page .navbar {
-  align-items: flex-start;
+  align-items: flex-end;
   display: flex;
   height: 136px;
   left: 0;
@@ -23,6 +23,7 @@
 
 .landing-page .overlap-group13 {
   height: 136px;
+  margin-bottom: -0.33px;
   position: relative;
   width: 1728px;
 }
@@ -38,27 +39,11 @@
 }
 
 .landing-page .logo {
-  align-items: flex-start;
-  display: flex;
-  height: 121px;
-  left: 0;
-  min-width: 236px;
-  padding: 20.4px 28.5px;
+  height: 122px;
+  left: 50;
   position: absolute;
-  top: 15px;
-}
-
-.landing-page .her-world {
-  height: 77px;
-  width: 112px;
-}
-
-.landing-page .x {
-  align-self: center;
-  height: 7px;
-  margin-left: 4px;
-  margin-top: 3.59px;
-  width: 7px;
+  top: 14px;
+  width: 232px;
 }
 
 .landing-page .discover {
@@ -67,7 +52,7 @@
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 217px;
 }
 
 .landing-page .place {
@@ -75,7 +60,7 @@
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 144px;
 }
 
 .landing-page .events {
@@ -84,7 +69,7 @@
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 175px;
 }
 
 .landing-page .about {
@@ -93,7 +78,7 @@
   letter-spacing: 4.80px;
   position: absolute;
   top: 38px;
-  width: 326px;
+  width: 174px;
 }
 
 .landing-page .sign-up-button {
@@ -177,7 +162,7 @@
   font-family: var(--font-family-made_evolve_sans-bold);
   font-size: 55px;
   font-weight: 700;
-  left: 132px;
+  left: 250px;
   letter-spacing: 7.15px;
   position: absolute;
   top: 237px;
@@ -213,9 +198,9 @@
 .landing-page .discover-now {
   color: var(--cinderella);
   font-family: var(--font-family-made_evolve_sans-bold);
-  font-size: 43px;
+  font-size: 32px;
   font-weight: 700;
-  left: 0;
+  left: 100;
   letter-spacing: 4.30px;
   position: absolute;
   text-align: center;
@@ -788,7 +773,7 @@
 .landing-page .support-women-and-lo {
   color: var(--seashell-peach);
   font-family: var(--font-family-agatho-bold);
-  font-size: 72px;
+  font-size: 55px;
   font-weight: 700;
   left: 203px;
   letter-spacing: 0;
@@ -848,7 +833,7 @@
 .landing-page .we-bring-clients-and {
   color: var(--blue-bayoux);
   font-family: var(--font-family-made_evolve_sans-medium);
-  font-size: var(--font-size-s);
+  font-size: 34px;
   font-weight: 500;
   left: 553px;
   letter-spacing: 1.70px;
