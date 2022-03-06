@@ -1,8 +1,8 @@
-# HERworld
+# entreprenHer
 
-## About HERworld Web Application
+## About entreprenHer Web Application
 
-Her world is a platform designed by women for women to promote small businesses owned by women in your area. This app is designed for business owners by allowing them to:
+entreprenHer is a platform designed by women for women to promote small businesses owned by women in your area. This app is designed for business owners by allowing them to:
 
 *📑 Create a blog
 *📂 Update their store information
